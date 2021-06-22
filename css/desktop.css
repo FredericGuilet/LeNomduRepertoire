@@ -1,0 +1,329 @@
+.wrapper,
+section div.annonces,
+section div.activites {
+    width: 1340px;
+    /* largeur du site */
+    margin: 0 auto;
+    /* centrer le contenu sur l'axe horizontal */
+}
+
+/* HEADER */
+header {
+    margin-bottom: 30px;
+}
+
+header .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navbar .mobile {
+    display: none;
+}
+
+header .navbar ul {
+    display: flex;
+    /* margin-left: auto; */
+}
+
+header .navbar ul li {
+    border-top: solid 3px transparent;
+    padding: 30px 25px 30px 25px;
+}
+
+header .navbar ul li.active {
+    border-color: #0066FF;
+}
+
+header .navbar ul li.active a,
+header .navbar ul li.signin a {
+    color: #0066FF;
+}
+
+header .navbar ul li.signin a {
+    font-weight: 700;
+}
+
+header h2,
+header p,
+header form,
+header .filtres {
+    margin-bottom: 20px;
+}
+
+header .fa-map-marker-alt {
+    padding: 10px;
+    background-color: #F2F2F2;
+    border-radius: 13px 0 0 13px;
+}
+
+header .fa-search {
+    display: none;
+}
+
+header input {
+    padding: 10px;
+    border: #F2F2F2 1px solid;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+header button {
+    background-color: #0065FC;
+    padding: 10px;
+    border-style: none;
+    border-radius: 0 13px 13px 0;
+    color: white;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+header div.filtres {
+    display: flex;
+    align-items: end;
+}
+
+header div.filtres p {
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+header div.filtres ul li {
+    float: left;
+}
+
+header div.filtres .boutons {
+    margin: 30px 0 0 30px;
+    padding: 0 15px 0 0;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px;
+    border-left-style: none;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+header div.filtres .boutons:hover {
+    background-color: #0065FC;
+    cursor: pointer;
+}
+
+header div.filtres .boutons:hover a {
+    color: white;
+}
+
+
+
+header div.filtres .fas {
+    padding: 15px;
+    margin: 0 10px 0 0;
+    border-radius: 50px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+header p.infos {
+    display: flex;
+    align-items: flex-start;
+}
+
+header p.infos .fa-info {
+    margin-right: 10px;
+    padding: 5px 8px;
+    border: 2px solid #f2f2f2;
+    border-radius: 500px;
+    color: #0065FC;
+    font-size: 0.7em;
+}
+
+/* ANNONCES */
+section div.annonces {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+section div.annonces h2 {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+section div.annonces .hebergements {
+    width: 800px;
+    padding: 45px 40px;
+}
+
+section div.annonces .hebergements div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+section div.annonces .hebergements .annonce {
+    width: 30%;
+    padding: 5px 5px 20px;
+    margin-bottom: 30px;
+    background-color: #FFF;
+}
+
+section div.annonces .hebergements .annonce img {
+    width: 100%;
+    height: 110px;
+    padding: 5px 5px 20px;
+
+}
+
+section div.annonces .hebergements .annonce img:hover
+{
+    transform: scale(1.03)
+}
+
+
+section div.annonces .hebergements .annonce img.bordure {
+    border-end-end-radius: 0;
+    border-end-start-radius: 0;
+}
+
+section div.annonces .hebergements .annonce p {
+    width: 100%;
+}
+
+section div.annonces .hebergements .annonce .note {
+    display: block;
+}
+
+section div.annonces .hebergements .more {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+section div.annonces .populaires {
+    width: 340px;
+    padding: 45px 40px;
+}
+
+section div.annonces .populaires h2 i {
+    float: right;
+    color: #000;
+    line-height: 36px;
+}
+
+section div.annonces .populaires .annonce {
+    width: 100%;
+    height: 135px;
+    margin-bottom: 30px;
+    padding: 5px;
+    background-color: #FFF;
+}
+
+populaires bg-gris bordure
+
+section div.annonces .populaires bordure h3
+{
+    justify-content: space-between;
+}
+
+
+section div.annonces .populaires .annonce img {
+    float: left;
+    width: 135px;
+    height: 135px;
+    margin-right: 15px;
+}
+
+section div.annonces .populaires .annonce img.bordure {
+    border-start-end-radius: 0;
+    border-end-end-radius: 0;
+}
+
+
+
+section div.annonces .populaires .annonce  :hover
+{
+    transform: scale(1.05)
+}
+
+section div.annonces .hebergements .annonce h3,
+section div.annonces .hebergements .annonce p,
+section div.annonces .populaires .annonce h3,
+section div.annonces .populaires .annonce p {
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* ACTIVITES */
+section h2 {
+    margin-top: 60px;
+}
+
+section .activites {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 500px;
+}
+
+section .activites .colonne {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100%;
+    margin: 0 15px;
+}
+
+section .activites .colonne .annonce {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 13px;
+    overflow: hidden;
+    margin-top: 30px;
+    padding: 3%;
+    /* box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.2); */
+}
+
+ img {
+    height: 100%;
+    border-end-start-radius: 0;
+    border-end-end-radius: 0;
+}
+
+section .activites .colonne .annonce img:hover
+{
+    transform: scale(1.05)
+}
+
+section div.activites .colonne .annonce h3 {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+section div.activites .colonne .big {
+    flex-grow: 1;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 30px;
+    padding: 2rem;
+}
+
+footer .wrapper {
+    display: flex;
+}
+
+footer .wrapper div {
+    width: 30%;
+}
+
+footer div h6 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+footer div h6,
+footer div ul li {
+    margin-bottom: 1rem;
+}

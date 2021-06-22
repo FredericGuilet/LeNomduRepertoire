@@ -1,0 +1,131 @@
+@media screen and (max-width: 767px) {
+	.wrapper,
+	section div.annonces,
+	section div.activites {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+	.bordure {
+		border-radius: 0;
+	}
+
+    /* HEADER */
+    header {
+        padding: 10px 0 0;
+    }
+
+    header .navbar a.mobile {
+        display: block;
+        font-size: 0.9em;
+        font-weight: 900;
+        color: #0065FC;
+    }
+
+    header .navbar ul li.signin {
+        display: none;
+    }
+
+
+
+    header .navbar ul li {
+        border-top: none;
+        border-bottom: solid 3px transparent;
+        padding: 30px 25px 30px 25px;
+    }
+
+    header h2 {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    header form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    header form input {
+        padding: 9px;
+        flex-grow: 1;
+    }
+
+    header form button {
+        line-height: 0;
+    }
+
+    header form button span {
+        font-size: 0;
+    }
+
+    header form .fa-search {
+        display: block;
+        color: #FFF;
+    }
+
+    header div.filtres {
+        flex-wrap: wrap;
+    }
+
+    header div.filtres .boutons {
+        margin: 15px 0 0 30px;
+    }
+
+	/* ANNONCES */
+    section div.annonces {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    section div.annonces .hebergements {
+        order: 1;
+		width: 100%;
+        padding: 0;
+    }
+
+    section div.annonces .hebergements div {
+        display: flex;
+		flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+	section div.annonces .hebergements .annonce {
+		width: 100%;
+		padding: 0;
+	}
+
+	section div.annonces .populaires {
+        order: 1;
+		width: 100%;
+        margin-top: 30px;
+        padding: 0;
+    }
+
+	section div.annonces .populaires .annonce {
+		padding: 0;
+	}
+
+	/* ACTIVITES */
+	section .activites {
+		height: auto;
+	}
+
+	section .activites .colonne {
+		width: 100%;
+		margin: 0;
+	}
+
+	/* FOOTER */
+	footer .wrapper {
+		flex-direction: column;
+	}
+
+	footer .wrapper div {
+	    width: 100%;
+		margin-top: 30px;
+	}
+}

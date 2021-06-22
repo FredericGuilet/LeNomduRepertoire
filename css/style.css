@@ -1,0 +1,52 @@
+/* GENERAL */
+
+/* Ceci est la feuille de style qui gere l'ensemble commun  */
+
+body {
+    font-family: "Raleway";
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.fas {
+    color:  #0065FC;
+}
+
+.blue {
+    color: #0065FC;
+}
+
+.grey {
+
+    color: rgb(217, 217, 217);
+}
+
+.empty {
+    color: #D9D9D9;
+}
+
+.bg-gris {
+    background-color: #F2F2F2;
+}
+
+.bordure {
+    border-radius: 20px;
+}
+
+.ombre {
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.2);
+}

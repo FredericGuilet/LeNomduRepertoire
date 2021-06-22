@@ -1,0 +1,74 @@
+body {
+    background-color: dimgray;
+    font-family: "Raleway";
+}
+
+header {
+    background-color: dodgerblue;
+    min-height: 100px;
+}
+
+section {
+    /* background-color: firebrick; */
+    border: 2px solid white;
+    min-height: 100px;
+    clear: both;
+    /* ici je voulais meix voir les blocks */
+    /* margin : 10px ; */
+}
+
+.hebergement {
+    float: left;
+    width: 75%;
+}
+
+.annonce {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.fondgris {
+    background-color: lightgrey; /* METTRE LE GRIS QUI FAUT */
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.populaire {
+    float: left;
+    width: 25%;
+}
+
+.activite {
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 10px 20px #000;
+}
+
+footer {
+    clear: both;
+    background-color: forestgreen;
+    min-height: 100px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+@media screen and (min-width: 414px) and (max-width: 767px) {
+    header {
+        background-color: lightcoral;
+        min-height: 50px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	header {
+		background-color: lightgreen;
+		min-height: 75px;
+	}
+}
